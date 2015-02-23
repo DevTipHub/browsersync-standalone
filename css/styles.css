@@ -1,4 +1,11 @@
 body {
-    background-color: antiquewhite;
-    /*background-color: azure;*/
+    /*background-color: #f8f8f8;*/
+    background-color: #999;
+}
+.container {
+    margin: 0 auto;
+    width: 768px;
+}
+.container p {
+    line-height: 24px;
 }
