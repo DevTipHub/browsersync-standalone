@@ -1,0 +1,21 @@
+# OS X
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Webstorm, Phpstorm.
+.idea/
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# Logs
+logs
+*.log
+
+# SASS
+.sass-cache
+*.css.map
