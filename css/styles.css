@@ -1,12 +1,38 @@
 body {
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
     color: #333;
     background-color: #f8f8f8;
-    /*background-color: lightskyblue;*/
+}
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+header {
+    margin-bottom: 30px;
+    height: 50px;
+    line-height: 50px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    background-color: #3c3c3c;
+}
+header h2 {
+    /*color: red;*/
+    color: #df6834;
 }
 .container {
     margin: 0 auto;
-    width: 768px;
+    width: 400px;
 }
-.container p {
-    line-height: 24px;
+section .container {
+    border: 1px #ccc solid;
+    margin-bottom: 30px;
+}
+.well {
+    padding: 15px 20px;
+    background-color: #eee;
 }
