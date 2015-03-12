@@ -19,7 +19,7 @@ module.exports = {
             "port": 8080
         }
     },
-    "files": "*.html, css/*.css",
+    "files": "*.html,css/*.css",
     "server": true,
     "proxy": false,
     "port": 3000,
@@ -38,7 +38,7 @@ module.exports = {
     "logConnections": false,
     "logFileChanges": true,
     "logSnippet": true,
-    "open": false,
+    "open": "local",
     "browser": "default",
     "xip": false,
     "hostnameSuffix": false,
